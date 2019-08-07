@@ -1,4 +1,4 @@
-## **[English](README.md)** **[简体中文](README_en.md)**
+## **[English](README.md)** **[简体中文](README_ZH.md)**
 
 # Dockerfiles
 
