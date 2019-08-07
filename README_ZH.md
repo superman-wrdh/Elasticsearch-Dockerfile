@@ -1,4 +1,4 @@
-## **[English](README.md) **[简体中文](README_ZH.md)** **
+## **[English](README.md)** **[简体中文](README_en.md)**
 # Dockerfiles
 
 ## 关于这个仓库
