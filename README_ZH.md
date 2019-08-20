@@ -21,6 +21,14 @@ services:
       - "9300:9300"
     networks:
       - docker_elk
+  kibana:
+    image: kibana:version_tag  # 注意这里的版本要和上面elasticsearch版本一致
+    ports:
+      - "5601:5601"
+    links:
+      - elasticsearch
+    networks:
+      - docker_elk
 networks:
   docker_elk:
     driver: bridge
