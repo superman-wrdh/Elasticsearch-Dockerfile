@@ -1,7 +1,7 @@
 version: "2.1"
 services:
   elasticsearch:
-    image: elasticsearch:7.3.0
+    build: .
     volumes:
       - ~/esdata:/usr/share/elasticsearch/data
     ports:
